@@ -1,0 +1,104 @@
+/*
+    #23272a
+    #2c2f33
+    #d7d5d9
+    #7289da
+
+    trans
+    
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato';
+}
+
+body {
+    background: linear-gradient(to bottom, #5bcffa 20%, #f5a9b9 20% 40%, #ffffff 40% 60%, #f5a9b9 60% 80%, #5bcffa 80% 100%);
+} 
+
+#wrapper {
+    margin: 50px auto 0px auto;
+    text-align: center;
+    width: 70%;
+    background-color: #99AAB5;
+    padding: 20px;
+    border: 3px #2c2f33 solid;
+    border-radius: 10px;
+}
+
+#bannerText {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#wrapper * {
+    margin-bottom: 10px;
+}
+
+table {
+    text-align: center;
+    margin: 0px auto;
+    border: 2px black solid;
+    border-collapse: collapse;
+    width: 75%;
+    background-color: #ffffff;
+}
+
+tr, td {
+    border: 1px gray solid;
+    padding: 5px;
+}
+
+#nameInput {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+select {
+    width: 10%;
+}
+
+#form {
+    width: 100%;
+}
+
+.totalOccurencesNum {
+    font-weight: bold;
+}
+
+.totalOccurencesRow {
+    background-color: #d7d5d9;
+}
+
+#optionsButton {
+    color: #d7d5d9;
+}
+
+.headers {
+    font-weight: bold;
+    background-color: #d7d5d9;
+}
+
+tr:nth-child(even) {
+    background-color: #d7d5d9;
+}
+
+.headers:first-of-type {
+    border: 2px black solid;
+}
+
+button {
+    margin: 0px 10px;
+    padding: 5px 20px;
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 15%;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #75ca92 20%, #b4e4c9 20% 40%, #ffffff 40% 60%, #e795b5 60% 80%, #d9456e 80% 100%);
+}
