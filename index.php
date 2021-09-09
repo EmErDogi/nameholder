@@ -25,7 +25,7 @@
                 <select id='countryFilter' name='countryFilter'>
                     <option></option>
                     <?php
-                        $mysqli = new mysqli("127.0.0.1", "tobi", "tobi", "imiona");
+                        $mysqli = new mysqli("127.0.0.1", "tobi", "tobi", "nameholder");
                         $countries = $mysqli->query("SELECT DISTINCT country from names");
                         while($row = $countries->fetch_assoc()) {
                             $country = $row["country"];
