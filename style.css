@@ -15,7 +15,9 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #5bcffa 20%, #f5a9b9 20% 40%, #ffffff 40% 60%, #f5a9b9 60% 80%, #5bcffa 80% 100%);
+    /*background: linear-gradient(to bottom, #5bcffa 20%, #f5a9b9 20% 40%, #ffffff 40% 60%, #f5a9b9 60% 80%, #5bcffa 80% 100%);
+*/
+    background-color: #23272a;
 } 
 
 #wrapper {
@@ -100,5 +102,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to bottom, #75ca92 20%, #b4e4c9 20% 40%, #ffffff 40% 60%, #e795b5 60% 80%, #d9456e 80% 100%);
+    /*background: linear-gradient(to bottom, #75ca92 20%, #b4e4c9 20% 40%, #ffffff 40% 60%, #e795b5 60% 80%, #d9456e 80% 100%);
+*/
+    background: #DFDFDF;
 }
