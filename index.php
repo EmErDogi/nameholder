@@ -1,4 +1,4 @@
-<head></head><title>Working title</title>
+<head></head><title>Nameholder</title>
 <link rel='Stylesheet' href='style.css'>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,7 +8,7 @@
 <body>
 <div id='wrapper'>
     <div id='banner'>
-        <p id='bannerText'>Placeholder</p>
+        <p id='bannerText'>Nameholder</p>
     </div>
     <div id='form'>
         <form method='get' action='code.php'>
