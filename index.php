@@ -11,7 +11,7 @@
         <p id='bannerText'>Nameholder</p>
     </div>
     <div id='form'>
-        <form method='get' action='code.php'>
+        <form method='get' action='./code.php'>
             <input type='text' name='name' placeholder='Put the name here!' id='nameInput'></br>
             <a target='blank' id='optionsButton' selectable='false' onclick='hideshow(document.getElementById("filters"))'>Advanced search</a></br></br>
             <div id='filters' style='display:none;'>
@@ -25,7 +25,7 @@
                 <select id='countryFilter' name='countryFilter'>
                     <option></option>
                     <?php
-                        $mysqli = new mysqli("127.0.0.1", "tobi", "tobi", "nameholder");
+                        $mysqli = new mysqli("localhost", "tobi", "tobi", "nameholder");
                         $countries = $mysqli->query("SELECT DISTINCT country from names");
                         while($row = $countries->fetch_assoc()) {
                             $country = $row["country"];

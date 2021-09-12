@@ -17,7 +17,12 @@
         return $rows;
     }
 
-    $mysqli = new mysqli("127.0.0.1", "tobi", "tobi", "nameholder");
+    echo("<h1>Hello World?</h1>");
+
+    $mysqli = new mysqli("localhost", "tobi", "tobi", "nameholder");
+    if ($mysqli == false) {
+    	echo(mysqli_connect_error());
+    }
     if(isset($_GET['send'])){
         $i = 0;
         $names = $_GET['name'];
